@@ -2,7 +2,7 @@ import HeroContent from '../sub/hero-content';
 
 const Hero = () => {
     return (
-        <div className='relative flex h-full w-full flex-col'>
+        <section id='about-me' className='relative flex h-full w-full flex-col'>
             <video
                 autoPlay
                 loop
@@ -11,7 +11,7 @@ const Hero = () => {
                 <source src='/blackhole.webm' type='video/webm' />
             </video>
             <HeroContent />
-        </div>
+        </section>
     );
 };
 
